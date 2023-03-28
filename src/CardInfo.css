@@ -1,0 +1,104 @@
+.card-list {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.653), rgba(0,0,0,0.5)),  url("../src/img/gif.gif");
+    background-size: cover;
+    background-attachment:fixed;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    
+}
+
+
+.card-container {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+
+
+  
+
+.card-name {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border: 4px solid white;
+    
+}
+
+
+
+.card-name:hover{
+    box-shadow: 0 4px 8px rgba(189, 2, 236, 0.959);
+}
+
+
+.card-image {
+    width: 45%;
+    height: 65%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: 4px solid black;
+    transition: transform 0.3s ease-out;
+    
+    
+}
+.card-image:hover {
+    transform: scale(1.1);
+}
+
+.card-info {
+    flex-grow: 1;
+}
+
+
+  
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform 0.5s ease;
+    
+}
+
+.info:hover{
+    box-shadow: 0 4px 8px rgba(189, 2, 236, 0.959);
+}
+  
+.info {
+    background-color: rgb(59, 9, 83);
+    color: rgb(255, 255, 255);
+    size: 30px;
+    margin: 1%;
+    padding: 0.8%;
+    flex-basis: 20%;
+    border-radius: 10%;
+    border: 4px solid white;
+}
+
+.card-back {
+    background-color: rgb(59, 9, 83);
+    color: rgb(255, 255, 255);
+    size: 30px;
+    margin: 1%;
+    padding: 0.8%;
+    flex-basis: 20%;
+    border-radius: 10%;
+    border: 4px solid white;
+    
+}
+  
+.contenedor-des i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    color: white;
+    
+    
+}
+
+
+
